@@ -1,3 +1,4 @@
+planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
 def roll_call_dwarves(dwarves)
   dwarves.each_with_index do |name, index|
     index += 1
@@ -6,7 +7,7 @@ def roll_call_dwarves(dwarves)
 end
 
 def summon_captain_planet(planeteer_calls)
- planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
+ #planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
   planeteer_calls.collect do |call|
     call.capitalize << "!"
  end
